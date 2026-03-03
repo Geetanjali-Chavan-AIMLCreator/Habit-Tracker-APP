@@ -1,0 +1,5 @@
+{
+  "name": "QuestLog Habit Tracker",
+  "description": "A gamified habit tracking application with recurring tasks, daily progress logging, and a rewards/punishments system.",
+  "requestFramePermissions": []
+}

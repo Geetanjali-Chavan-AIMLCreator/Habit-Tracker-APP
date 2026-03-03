@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-quest-bg: #0f172a;
+  --color-quest-card: #1e293b;
+  --color-quest-accent: #10b981;
+  --color-quest-danger: #ef4444;
+  --color-quest-text: #f8fafc;
+}
+
+body {
+  background-color: var(--color-quest-bg);
+  color: var(--color-quest-text);
+  font-family: var(--font-sans);
+}
+
+.quest-border {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.quest-glow {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+}
